@@ -1,14 +1,8 @@
-1、Git结构
+### 1、git常用命令
 
-2、Git和代码托管中心
 
-代码托管中心的任务：维护远程库
 
-> 局域网环境下：GitLab服务器
->
-> 外网环境下：GitHub、马云
-
-git远程操作
+### 2、git配置远程仓库
 
 ```shell
 1、添加远程仓库地址
@@ -29,3 +23,10 @@ ssh -T git@github.com
 git push -u origin master
 ```
 
+### 3、git克隆远程仓库
+
+```shell
+git clone [url] [别名]
+例子:
+ git clone https://github.com/tianqixin/runoob-git-test
+```
