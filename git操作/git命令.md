@@ -30,3 +30,7 @@ git clone [url] [别名]
 例子:
  git clone https://github.com/tianqixin/runoob-git-test
 ```
+
+
+
+一份代码两个仓库
